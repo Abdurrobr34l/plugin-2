@@ -1,0 +1,15 @@
+﻿li {
+  list-style: none;
+}
+
+/* #demo {
+  width: 1000px;
+  margin: 0 auto 20px;
+} */
+.ac-slider-container {
+  height: 500px;
+}
+.container1 {
+  /* margin: 30px auto; */
+  max-width: 1000px;
+}

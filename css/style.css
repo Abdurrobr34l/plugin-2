@@ -1,0 +1,69 @@
+body {
+  background-color: #31eb9e;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Place the particle plugin behind the content */
+}
+/* navigation-bar strt */
+.navigation_bar {
+  width: 100%;
+  height: 100px;
+  border: 5px solid;
+  border-radius: 2px;
+  background-color: #31eb9e;
+  opacity: 1;
+}
+.nav_logo {
+  margin: 25px 0;
+}
+.nav_logo a {
+  border: 6px solid #fff;
+  border-radius: 5px;
+  color: #000;
+}
+.nav_logo:hover a {
+  border-color: #000;
+}
+/* navigation-bar end */
+
+/* parallex plugin strt */
+.parallax-window {
+  min-height: 650px;
+}
+/* parallex plugin end */
+
+/* simple parallex plugin strt */
+.sec_plugin {
+  padding: 100px 0;
+}
+.sec_plugin2 {
+  padding: 0 0 100px;
+}
+.sp_cont {
+  border: 5px solid;
+  border-radius: 10px;
+  background-color: #bfe5d5;
+}
+.sp_cont2 {
+  height: 438px;
+  border: 1px solid;
+}
+/* parallex plugin end */
+
+/* light box plugin strt */
+.lb_col a {
+  padding-right: 30px;
+}
+/* light box plugin end */
